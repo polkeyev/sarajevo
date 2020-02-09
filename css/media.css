@@ -1,0 +1,143 @@
+@media (min-width: 320px) and (max-width: 480px) {
+	.menu {
+		position: absolute;
+		background-color: #000;
+		right: -100%;
+		top: 65px;
+		width: 50%;
+		height: calc(100vh - 65px);
+	}
+
+	.menu .open {
+		right: 0;
+	}
+
+	.menu > li > a {
+		font-size: 18px;
+	}
+
+	.menu > li {
+		display: block;
+		margin-right: 0;
+		text-align: center;
+		height: 80px;
+		line-height: 80px;
+		margin-bottom: 5px;
+		transition: right  .5s ease-out;
+	}
+
+	.burger-menu {
+		display: block;
+		width: 30px;
+		height: 30px;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+	.main-title {
+		margin: 0;
+		padding-top: calc(50vh  - 88px);
+	}
+	header {
+		padding: 0 20px;
+		position: fixed;
+		width: 100%;
+		z-index: 5;
+	}
+	.steps {
+		flex-direction: column;
+		margin-top: 20px;
+	}
+	.step {
+		text-align: center;
+		width: 100%;
+	}
+	.step > span {
+		margin: 10px auto;
+		display: block;
+	}
+	.step-text {
+		width: 100%;
+	}
+	.step-text > h1 {
+		font-size: 18px;
+	}
+	.step-text > p {
+		font-size: 14px;
+	}
+	#features {
+		padding: 30px;
+	}
+	#phone {
+		padding: 30px;
+	}
+	
+	#works > p,
+	#team > p {
+		padding: 0;
+		margin: 20px 0 30px;
+	}
+
+	#works > ul > li {
+		padding: 5px 7px;
+		margin-right: 5px;
+		font-size: 12px;
+		font-weight: normal;
+	}
+
+	#works > ul {
+		margin-bottom: 25px;
+	}
+
+	.work-items {
+		margin-left: -30px;
+	}
+	
+	.work-items > div {
+		width: 50%;
+	}
+
+	.team-members {
+		flex-wrap: wrap;
+	}
+
+	.team-member {
+		width: 45%;
+		margin-bottom: 10px;
+	}
+
+	.numbers {
+		flex-wrap: wrap;
+		padding: 0;
+	}
+
+	.mumbers > div {
+		margin-bottom: 20px;
+		width: 50%;
+	}
+
+	.numbers > div:last-child {
+		margin-bottom: 0;
+	}
+
+	#form > p {
+		margin: 20px;
+	}
+
+	.send {
+		flex-direction: column;
+	}
+	
+	.addres-form,
+	.input-form,
+	.social-form {
+		width: 100%;
+	}
+
+	
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+
+	
+
+}
